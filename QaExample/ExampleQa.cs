@@ -23,7 +23,7 @@ namespace QaExample
              */
         [TestMethod]
         [TestCategory("Chrome")]
-        public void HomePageTests()
+        public void QuartzBytesTests()
         {
             //Initiate the HomePage object and pass the selenium web driver as a parameter
             var homePage = new HomePage(this.driver);
